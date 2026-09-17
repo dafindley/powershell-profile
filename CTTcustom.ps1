@@ -17,3 +17,8 @@ Set-PSReadLineKeyHandler `
         [Microsoft.PowerShell.PSConsoleReadLine]::Insert('Invoke-SPOVersionTrim')
         [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
     }
+# SharePoint Version Trim Utility
+function spotrim {
+    Invoke-SPOVersionTrim @args
+}
+
