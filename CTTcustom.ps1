@@ -5,6 +5,10 @@ $updateInterval_Override = $null
 $show_help_Override = $null
 $EDITOR_Override = $null
 
+if (-not (Get-Variable _ompInitialized -Scope Global -ErrorAction SilentlyContinue)) {
+    $global:_ompInitialized = $false
+}
+
 $env:POSH_THEME = "$HOME\Documents\GitHub\powershell-profile\themes\jandedobbeleer.omp.json"
 . "$HOME\Documents\GitHub\powershell-scripts\Invoke-SPOVersionTrim.ps1"
 . "$HOME\Documents\GitHub\powershell-scripts\New-SPOTrimTargetCsv.ps1"
