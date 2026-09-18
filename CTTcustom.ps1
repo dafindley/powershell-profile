@@ -8,6 +8,7 @@ $EDITOR_Override = $null
 $env:POSH_THEME = "$HOME\Documents\GitHub\powershell-profile\themes\jandedobbeleer.omp.json"
 . "$HOME\Documents\GitHub\powershell-scripts\Invoke-SPOVersionTrim.ps1"
 . "$HOME\Documents\GitHub\powershell-scripts\New-SPOTrimTargetCsv.ps1"
+. "$HOME\Documents\GitHub\powershell-scripts\Invoke-SPORecycleBinMaintenance.ps1"
 
 # Set-PSReadLineKeyHandler `
 #     -Chord 'Ctrl+Shift+t' `
