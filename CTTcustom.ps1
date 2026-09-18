@@ -24,3 +24,8 @@ $env:POSH_THEME = "$HOME\Documents\GitHub\powershell-profile\themes\jandedobbele
 function spotrim {
     Invoke-SPOVersionTrim @args
 }
+
+# Zed Editor Alias
+function z {
+    zed --new --wait @args
+}
