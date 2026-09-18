@@ -26,6 +26,7 @@ function spotrim {
 }
 
 # Zed Editor Alias
-function z {
+function ze {
     zed --new --wait @args
 }
+Set-Alias -Name zz -Value ze
